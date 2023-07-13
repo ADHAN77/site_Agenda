@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Russo One', sans-serif;
+    padding-top: 100px;
+    background-color: rgb(235, 58, 14);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(235, 58, 14);
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.534);
+    background-color: white;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.589);
+}
+
+form {
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 15px;
+    font-style: italic;
+    color: white;
+}
+
+form button {
+    background-color: rgb(235, 58, 14);
+    color: white;
+    border: none;
+    font-size: 19px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.589);
+    padding: 10px;
+    margin-left: 30px;
+    font-family: 'Russo One', sans-serif;
+}
+
+input {
+    border: none;
+    font-size: 19px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.589);
+    padding: 10px;
+    margin-left: 30px;
+    font-family: 'Russo One', sans-serif;
+}
+
+table {
+    width: 100%;
+
+}
+
+table td {
+    text-align: center;
+    font-size: 18px;
+    padding: 8px 0;
+    border-bottom: 1px solid black;
+}
+
+table th {
+    border-bottom: 2px solid black;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 30px;
+}
